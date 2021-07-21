@@ -1,0 +1,41 @@
+.work-card {
+    /* width: 100%; */
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.work-logo {
+    height: 80px;
+}
+
+.work-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.work-dates {
+    color: gray
+}
+
+.work-desc {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 80%;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 720px) { 
+
+.work-card {
+   width: 100%;
+}
+}

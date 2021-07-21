@@ -1,0 +1,59 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+/* 
+if you style section title here react will apply this section title in all other components also because react will compile all css file in one webpack
+ */
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-container {
+ display: flex;
+ flex: 1;
+ justify-content: space-between;
+ align-items: center;
+ margin: 16px 0px;
+}
+
+.contact-left {
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.download-resume {
+    display: flex;
+    background-color: aquamarine;
+    padding: 8px 16px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.download-resume a {
+    text-decoration: none;
+    color: black
+}
+
+@media only screen and (max-width: 720px) {
+       .contact-container {
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+
+      .contact-left {
+          max-width: 100%;
+          font-size: 16px;
+          margin-bottom: 12px;
+      }
+
+      .download-resume {
+          font-size: 16px;
+      }
+} 

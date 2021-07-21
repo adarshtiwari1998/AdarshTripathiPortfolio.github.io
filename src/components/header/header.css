@@ -1,0 +1,50 @@
+.header {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    display: flex;
+    justify-content: space-between;
+    /* stretch all the space which is available to you */
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon{
+font-size: 24px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display: flex
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    color: blueviolet;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+    .mobile-menu {
+      display: flex;
+    }
+    .web-menu {
+        display: none;
+    }
+
+    .logo {
+        font-size: 24px
+    }
+   }
+   
+

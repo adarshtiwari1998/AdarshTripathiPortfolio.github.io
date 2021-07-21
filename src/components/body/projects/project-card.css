@@ -1,0 +1,86 @@
+.project-card {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0px;   /* margin is the space between two house */
+    padding: 8px 0px;   /* paddig is the space between walls and bed  */
+}
+
+.project-photo {
+  width: 40%;
+}
+
+.project-info {
+    margin-right: 24px;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project-links {
+
+}
+
+.project-tags {
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.tag {
+background-color: aquamarine;
+padding: 4px 8px;
+border-radius: 4px;
+margin-right: 6px;
+margin-bottom: 4px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: black
+}
+
+.project-links {
+    display: flex;
+    margin-top: 6px;
+}
+
+.link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aquamarine;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.link-button i {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+/* media queries */
+@media only screen and (max-width: 720px) {
+   .project-photo {
+       width: 70%;
+   }
+   .project-card {
+       flex-direction: column-reverse;
+   }
+   .project-info {
+       margin-left: 0px;
+       margin-top: 12px
+   }
+   
+   .project-tags {
+       max-width: 100%;
+   }
+}
+
