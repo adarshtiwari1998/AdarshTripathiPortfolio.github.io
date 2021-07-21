@@ -1,5 +1,8 @@
 # Adarsh Tripathi Portfolio Website
 
+#live url:---->  <a href="https://adarshtripathiportfolio.herokuapp.com/">https://adarshtripathiportfolio.herokuapp.com/</a>
+
+ <img src="../../../assets/images/github/banner1.jpeg" className="picture" />
 
 Getting Started with create react app 
 1. npx create-react app [your app name] and hit enter
